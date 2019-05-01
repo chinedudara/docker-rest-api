@@ -27,9 +27,9 @@ describe('Name Tests', () => {
     })
 })
 
-// test('Fetch User Ervin Howell', () => {
-//     expect.assertions(1);
-//     return functions.fetchName().then(data => {
-//         expect(data.name).toEqual('Ervin Howell')
-//     })
-// })
+test('Fetch User Ervin Howell', () => {
+    expect.assertions(1);
+    return functions.fetchName().then(data => {
+        expect(data.name).toEqual('Ervin Howell')
+    })
+})
