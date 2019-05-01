@@ -1,7 +1,7 @@
 const axios = require('axios');
 
 const functions = {
-    add: (a, b) => a + b + 20,
+    add: (a, b) => a + b,
     isNull: () => null,
     checkValue: (a) => a,
     sayName: () => 'Chinedu Dara',
